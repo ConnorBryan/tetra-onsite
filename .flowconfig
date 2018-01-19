@@ -1,0 +1,18 @@
+[ignore]
+.*/node_modules/.*
+.*/build/.*
+.*/webpack\.config\.js
+.*/devserver/server.js
+.*/prodserver/server.js
+.*/webpack-loaders/*
+.*/babel-plugins/*
+
+[include]
+
+[libs]
+
+[options]
+# run flow on every source file
+all=true
+module.name_mapper='.*\.scss$' -> '<PROJECT_ROOT>/SCSSFlowStub.js'
+module.name_mapper='^src/\(.*\)$' -> '<PROJECT_ROOT>/src/\1'

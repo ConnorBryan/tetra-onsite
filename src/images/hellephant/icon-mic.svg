@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="39px" viewBox="0 0 29 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>icon mic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M28,20 C28,27.1797017 21.9558441,33 14.5,33 C7.04415588,33 1,27.1797017 1,20 L1,3 L28,3 L28,20 Z" id="path-1"></path>
+        <rect id="path-2" x="6" y="0" width="17" height="28" rx="8.5"></rect>
+    </defs>
+    <g id="homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-409.000000, -3860.000000)">
+        <g id="dark-section" transform="translate(0.000000, 3049.000000)">
+            <g id="faq" transform="translate(0.000000, 548.000000)">
+                <g id="faq-copy" transform="translate(406.000000, 100.000000)">
+                    <g id="record-call" transform="translate(3.000000, 163.000000)">
+                        <g id="icon-mic">
+                            <g id="Combined-Shape">
+                                <use fill="#353B47" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <path stroke="#F25D4B" stroke-width="1" d="M27.5,3.5 L1.5,3.5 L1.5,20 C1.5,26.8992492 7.31616433,32.5 14.5,32.5 C21.6838357,32.5 27.5,26.8992492 27.5,20 L27.5,3.5 Z"></path>
+                            </g>
+                            <rect id="Rectangle-8" fill="#F25D4B" x="14" y="33" width="1" height="5"></rect>
+                            <rect id="Rectangle-11" fill="#343944" x="0" y="1.79166667" width="29" height="16.625"></rect>
+                            <rect id="Rectangle-9" fill="#F25D4B" x="7" y="38" width="15" height="1"></rect>
+                            <g id="Rectangle-10">
+                                <use fill="#353B47" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <rect stroke="#F25D4B" stroke-width="1" x="6.5" y="0.5" width="16" height="27" rx="8"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

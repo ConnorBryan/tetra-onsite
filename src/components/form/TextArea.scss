@@ -1,0 +1,18 @@
+@import "src/global-styles/colors.scss";
+@import "src/global-styles/GlobalStyles.scss";
+@import "src/global-styles/FormStyles.scss";
+
+textarea {
+  color: $dark-grey;
+  outline-width: 0;
+  @include input-row-input;
+}
+
+textarea::placeholder {
+  color: $light-grey;
+}
+
+textarea.error {
+  color: $tetra-red;
+  @include input-row-input-error;
+}

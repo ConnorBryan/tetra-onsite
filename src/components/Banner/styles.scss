@@ -1,0 +1,30 @@
+@import 'src/global-styles/colors.scss';
+
+.banner {
+  min-height: 35px;
+  width: 100vw;
+  padding: 10px 0;
+  color: white;
+}
+
+.banner.red {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.banner.white {
+  background-color: $tetra-red;
+}
+
+.message {
+  padding: 5px;
+  text-align: center;
+  color: $white;
+}
+
+.message b {
+  font-size: 18px;
+  font-weight: 400;
+}
+.message span {
+  font-size: 16px;
+}

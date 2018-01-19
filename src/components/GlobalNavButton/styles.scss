@@ -1,0 +1,70 @@
+@import "src/global-styles/colors.scss";
+
+button {
+  border: 0;
+  outline-width: 0;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+button.red {
+  background: rgba(255, 255, 255, 0);
+  color: $white;
+}
+
+button.red:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+button.red.active {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+button.white {
+  background: $tetra-red;
+  color: $white;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+button.white:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+button.white.active {
+  border-color: $white;
+}
+
+button > *:first-child {
+  float: left;
+  height: 20px;
+}
+
+div.label {
+  float: right;
+  height: 20px;
+  color: inherit;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  height: 0;
+  vertical-align: top;
+  font-weight: 100px;
+}
+
+$dropdown-breakpoint: 768px;
+
+@media screen and (max-width: $dropdown-breakpoint) {
+  a {
+    display: block;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "retainLines": true,
+  "sourceMaps": true,
+  "presets": [
+    "react",
+    "flow",
+    ["es2015", {"modules": false}],
+  ],
+  "plugins": [
+    "./babel-plugins/encapsulate-jsx",
+    "jsx-display-if",
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "transform-runtime",
+  ]
+}

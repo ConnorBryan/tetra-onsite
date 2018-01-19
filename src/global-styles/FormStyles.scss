@@ -1,0 +1,35 @@
+@import "~src/global-styles/colors.scss";
+
+@mixin input-row() {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+@mixin input-row-icon() {
+  flex-basis: 35px;
+}
+
+@mixin input-row-input {
+  flex-grow: 1;
+  border-width: 0 0 1px 0;
+  border-color: $bright-grey;
+  transition: border-width 0.2s;
+}
+
+@mixin input-row-input-error {
+  border-color: $tetra-red;
+  border-width: 0 0 2px 0;
+}
+
+@mixin input-row-input-error-text {
+  flex-basis: 100%;
+  padding-left: 35px;
+  color: $tetra-red;
+  font-size: 0.8em;
+}
+
+@mixin form-error {
+  color: $tetra-red;
+  margin-bottom: 10px;
+}

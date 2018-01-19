@@ -1,0 +1,128 @@
+@import "~src/global-styles/FormStyles.scss";
+
+.pageContents {
+  padding: 0;
+  margin: 10px 0;
+}
+
+.title {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 34px;
+}
+
+.subTitle {
+  margin-bottom: 4px;
+}
+
+.shareLinkContainer .formRow {
+  display: flex;
+  font-size: 16px;
+}
+
+.shareLinkInput {
+  flex-grow: 2;
+  border: 1px solid $light-grey;
+  border-right: 0;
+  padding: 0 10px;
+  font-weight: 500;
+}
+
+.shareLinkBtn {
+  background-color: $white;
+  border: 2px solid $tetra-red;
+  color: $tetra-red;
+  font-size: 12px;
+  padding: 5px 25px;
+  box-shadow: 0 4px 5px 0 rgba(244, 67, 54, 0.14),
+    0 1px 10px 0 rgba(244, 67, 54, 0.12), 0 2px 4px -1px rgba(244, 67, 54, 0.2);
+  outline: none;
+}
+
+.collaboratorForm {
+  margin: 30px 0;
+}
+
+.collaboratorForm .formRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.collaboratorForm .collaboratorInput {
+  flex-grow: 2;
+  border: 1px solid $light-grey;
+  border-right: 0;
+  padding: 0 10px;
+}
+
+.selectedParticipantInput {
+  color: $tetra-pink;
+  text-align: center;
+}
+
+.collaboratorForm .addCollaboratorBtn {
+  background-color: $tetra-red;
+  border: 2px solid $tetra-red;
+  color: $white;
+}
+
+.collaboratorFormError {
+  color: $tetra-red;
+  font-size: 13px;
+}
+
+.collaboratorRow {
+  position: relative;
+  padding: 15px 20px;
+  margin: 0 auto;
+  border-top: 1px solid $bright-grey;
+  display: flex;
+  flex-direction: row;
+}
+
+.selectCollaboratorRow {
+  cursor: pointer;
+  transition: border-color linear 0.1;
+}
+
+.selectCollaboratorRow:hover {
+  background-color: #f6f6f6;
+}
+
+.collaboratorCirc {
+  background-color: $tetra-red;
+  color: $white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  font-size: 16px;
+  text-transform: capitalize;
+  padding-top: 5px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.collaboratorDesc {
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+
+.selectCollaboratorBtn {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  color: $tetra-red;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0);
+}
+
+.collaboratorRow:hover .selectCollaboratorBtn {
+  border-color: $tetra-red;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

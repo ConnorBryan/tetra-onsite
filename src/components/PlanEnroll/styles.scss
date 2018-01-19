@@ -1,0 +1,12 @@
+@import "~src/global-styles/FormStyles.scss";
+
+.billingInfo {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.formError {
+  @include form-error;
+  margin: 10px 0 0;
+}

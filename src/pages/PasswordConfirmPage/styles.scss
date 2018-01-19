@@ -1,0 +1,15 @@
+@import "~src/global-styles/FormStyles.scss";
+
+.passwordConfirmPage {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .formPage {
+    width: 345px;
+    margin: 60px auto;
+  }
+}
+
+.pageContents {
+  padding: 80px 25px 40px;
+}

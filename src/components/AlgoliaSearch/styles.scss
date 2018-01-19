@@ -1,0 +1,44 @@
+@import "~src/global-styles/colors.scss";
+@import "~src/global-styles/FormStyles.scss";
+
+.formRow {
+  @include input-row;
+  margin-bottom: 0px;
+}
+.formIcon {
+  @include input-row-icon;
+}
+
+.searchBar {
+  transition: width 0.2s linear;
+  margin-right: 5px;
+}
+
+.searchBar.small {
+  width: 200px;
+}
+
+.searchBar.big {
+  width: 500px;
+}
+
+.search {
+  font-weight: 100;
+  text-align: left;
+  font-size: 14px;
+  height: 35px;
+  width: 100%;
+  border: 1px solid $light-grey;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.14) inset;
+
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+.resultsList {
+  background: white;
+  border: 1px solid $light-grey;
+  border-radius: 3px;
+  margin-top: 5px;
+}

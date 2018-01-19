@@ -1,0 +1,65 @@
+@import "src/global-styles/colors.scss";
+
+button {
+  margin: 2px;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  outline-width: 0;
+  font-weight: 100;
+  font-size: 10pt;
+  vertical-align: center;
+  padding: 7px 0;
+  transition: all 0.1s ease;
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+button[disabled] {
+  box-shadow: none !important;
+  opacity: 0.7 !important;
+  cursor: not-allowed;
+}
+
+.size-small {
+  min-width: 30px;
+  height: 30px;
+}
+
+.size-medium {
+  padding: 10px 0;
+  min-width: 40px;
+  height: 40px;
+}
+
+.color-red {
+  background-color: $tetra-red;
+  color: $white;
+}
+
+.color-red:hover {
+  box-shadow: 0 4px 5px 0 rgba(244, 67, 54, 0.14),
+    0 1px 10px 0 rgba(244, 67, 54, 0.12), 0 2px 4px -1px rgba(244, 67, 54, 0.2);
+}
+
+.color-grey {
+  background-color: $dark-grey;
+  color: $white;
+}
+
+.color-grey:hover {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
+    0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+.color-opaque {
+  background: rgba(255, 255, 255, 0.1);
+  color: $white;
+}
+
+.color-opaque {
+  box-shadow: 0 4px 5px 0 rgba(55, 55, 55, 0.14),
+    0 1px 10px 0 rgba(55, 55, 55, 0.12), 0 2px 4px -1px rgba(55, 55, 55, 0.2);
+}

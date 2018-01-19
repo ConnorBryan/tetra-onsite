@@ -1,0 +1,74 @@
+@import "src/global-styles/colors.scss";
+
+.documentNav {
+  width: 100%;
+  height: 60px;
+  background-color: $white;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid $bright-grey;
+}
+
+.documentNav > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.back {
+  background-color: $tetra-red;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.documentNavRight {
+  display: flex;
+  align-items: center;
+}
+
+.documentNavActions {
+  margin-top: 10px;
+  padding-right: 20px;
+}
+
+.documentNavActions > * {
+  height: 40px;
+  margin: 0 4px;
+}
+
+.documentNavActions > button {
+  border-radius: 2px;
+  border: 2px solid $tetra-red;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.14);
+  padding: 0 25px;
+}
+
+.mockButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: 2px solid green;
+  border-radius: 2px;
+  height: 40px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.14);
+}
+
+.mockButton > div {
+  margin-left: 2px;
+  margin-top: -2px;
+}
+
+.searchBar {
+  display: inline-block;
+  vertical-align: top;
+}

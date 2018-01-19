@@ -1,0 +1,52 @@
+@import "~src/global-styles/colors.scss";
+
+.pageContents {
+  width: 100%;
+  min-height: 100vh;
+  border-radius: 0;
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.spinner {
+  margin: 0 auto;
+  display: block;
+}
+
+.sectionHeader {
+  margin: 30px 0;
+  color: $light-grey;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.highlights {
+  max-width: 900px;
+  margin: 0 20px;
+}
+
+.transcript {
+  max-width: 900px;
+  margin: 0 20px;
+}
+
+.highlightlist-enter {
+  opacity: 0.01;
+}
+
+.highlightlist-enter.highlightList-enter-active {
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}
+
+.highlightList-leave {
+  opacity: 0.01;
+}
+
+.highlightlist-leave.highlightList-leave-active {
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}

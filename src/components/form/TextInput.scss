@@ -1,0 +1,27 @@
+@import "src/global-styles/colors.scss";
+@import "src/global-styles/GlobalStyles.scss";
+@import "~src/global-styles/FormStyles.scss";
+
+input {
+  @include input-row-input;
+}
+
+input {
+  color: $dark-grey;
+  outline-width: 0;
+}
+input::placeholder {
+  color: $light-grey;
+}
+input.error {
+  color: $tetra-red;
+}
+
+div.footer {
+  @extend .centered-x;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+.fieldError {
+  @include input-row-input-error;
+}

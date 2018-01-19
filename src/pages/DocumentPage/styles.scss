@@ -1,0 +1,18 @@
+@import "~src/global-styles/colors.scss";
+
+* {
+  /* make nothing highlightable (except transcript) */
+  user-select: none;
+}
+
+.transcriptSpinnerPage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $white;
+}
+
+.transcriptPage {
+  width: 100%;
+}

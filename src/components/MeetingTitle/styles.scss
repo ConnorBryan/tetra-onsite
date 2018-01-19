@@ -1,0 +1,23 @@
+@import 'src/global-styles/colors.scss';
+
+.titleWrapper {
+  cursor: pointer;
+}
+
+.titleWrapper h2 {
+  font-size: 22px;
+}
+
+.titleInput {
+  height: 40px;
+  vertical-align: baseline;
+  border: 1px solid $light-grey;
+  border-radius: 3px;
+  padding: 0 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.14) inset;
+}
+
+.editButton {
+  font-size: 18px;
+  margin-left: 5px;
+}

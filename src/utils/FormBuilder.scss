@@ -1,0 +1,17 @@
+@import "~src/global-styles/colors.scss";
+@import "~src/global-styles/FormStyles.scss";
+
+.formRow {
+  @include input-row;
+}
+.formIcon {
+  @include input-row-icon;
+}
+
+.fieldErrorText {
+  @include input-row-input-error-text;
+}
+
+.formError {
+  @include form-error;
+}

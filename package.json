@@ -1,0 +1,112 @@
+{
+  "name": "tetra-web-react",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server",
+    "lint": "eslint .",
+    "flow": "flow",
+    "flow:watch": "flow-watch",
+    "update-flow-defs": "./node_modules/.bin/flow-typed install",
+    "prettier": "find ./src -name '*.js' -o -name '*.scss' | xargs prettier --single-quote --trailing-comma es5 --write",
+    "check-prettier": "find ./src -name '*.js' -o -name '*.scss' | xargs prettier --single-quote --trailing-comma es5 -l"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nliolios24/tetra-web-react.git"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true,
+        "experimentalObjectRestSpread": true
+      }
+    },
+    "globals": {
+      "Promise": false,
+      "React$Element": false,
+      "SyntheticMouseEvent": false,
+      "CONFIG": false
+    },
+    "plugins": [
+      "react"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "rules": {
+      "prefer-const": "error",
+      "semi": "error"
+    }
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-helpers": "^6.24.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-jsx-display-if": "^3.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.28.4",
+    "debug": "^2.6.8",
+    "encapsulate-css": "^1.0.1",
+    "eslint": "^4.2.0",
+    "eslint-plugin-react": "^7.1.0",
+    "flow-bin": "^0.48.0",
+    "flow-typed": "^2.1.2",
+    "flow-watch": "^1.1.1",
+    "image-webpack-loader": "^3.3.1",
+    "node-sass": "^4.5.3",
+    "prettier": "^1.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "algoliasearch": "^3.24.0",
+    "axios": "^0.16.2",
+    "babel": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-runtime": "^6.23.0",
+    "compression": "^1.7.0",
+    "express": "^4.15.3",
+    "file-loader": "^0.11.2",
+    "google-libphonenumber": "^2.0.19",
+    "localforage": "^1.5.0",
+    "mixpanel": "^0.7.0",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.14",
+    "numeral": "^2.0.6",
+    "prop-types": "^15.5.10",
+    "query-string": "^4.3.4",
+    "react": "^15.6.1",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-clipboard.js": "^1.1.2",
+    "react-dom": "^15.6.1",
+    "react-infinite": "^0.12.1",
+    "react-load-script": "0.0.6",
+    "react-modal": "^2.2.1",
+    "react-onclickoutside": "^6.4.0",
+    "react-responsive": "^1.3.4",
+    "react-router-dom": "^4.1.1",
+    "react-scrollspy": "^3.2.0",
+    "recompose": "^0.23.5",
+    "underscore": "^1.8.3"
+  }
+}

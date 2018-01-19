@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="11px" viewBox="0 0 14 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>check</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="tetra-mobile-pricing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-58.000000, -647.000000)">
+        <g id="free" transform="translate(29.000000, 210.000000)" fill="#F45C45">
+            <g id="masked-content">
+                <g id="features" transform="translate(26.000000, 434.000000)">
+                    <g id="feature" transform="translate(3.000000, 0.000000)">
+                        <g id="check" transform="translate(7.000000, 7.000000) rotate(-45.000000) translate(-7.000000, -7.000000) translate(1.000000, 4.000000)">
+                            <rect id="Rectangle-5" x="0" y="0" width="2" height="6"></rect>
+                            <rect id="Rectangle-8" transform="translate(6.000000, 5.000000) rotate(-180.000000) translate(-6.000000, -5.000000) " x="0" y="4" width="12" height="2"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,52 @@
+@import 'src/global-styles/colors.scss';
+
+$dropdown-breakpoint: 768px;
+
+header.globalNav.red {
+  background-color: rgba(0, 0, 0, 0);
+  color: $white;
+}
+
+header.globalNav.white {
+  background-color: $tetra-red;
+  color: $white;
+}
+
+.logoWrapper,
+.logoImage {
+  margin-top: 3px;
+  height: 45px;
+  width: 45px;
+}
+
+.navHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+}
+
+button.navDropdownButton {
+  border: 0;
+  cursor: pointer;
+  outline-width: 0;
+  background: rgba(0, 0, 0, 0);
+  padding: 10px;
+  margin: 5px 20px;
+  border-radius: 5px;
+}
+
+button.navDropdownButton:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: $dropdown-breakpoint) {
+  .navDropdownContent {
+    transition: max-height 0.4s;
+    overflow: hidden;
+    max-height: 0;
+  }
+
+  .navDropdownContent.visible {
+    max-height: 300px;
+  }
+}

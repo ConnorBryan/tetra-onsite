@@ -1,0 +1,134 @@
+/* disable-encapsulation */
+@import "~src/global-styles/colors.scss";
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+html.red {
+  background: $grey;
+}
+
+html.white {
+  background: $bright-grey;
+}
+
+body,
+#application,
+.app {
+  width: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+html.red body {
+  background: linear-gradient(
+    0deg,
+    rgba(238, 9, 121, 0.7) -30%,
+    rgba(249, 71, 44, 0.7) 50%,
+    rgba(255, 106, 0, 0.7) 130%
+  );
+  color: $off-black;
+  min-height: 100vh;
+}
+
+html.white body {
+  background: $bright-grey;
+  color: $off-black;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.6em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+b {
+  font-weight: 700;
+}
+
+.header {
+  color: $white;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  z-index: 1;
+  box-sizing: border-box;
+  border: 10px solid $white;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+html.red .header {
+  background: linear-gradient(
+    0deg,
+    rgba(249, 71, 44, 0.7) 150%,
+    rgba(238, 9, 121, 0.7) 50%
+  );
+}
+
+html.white .header {
+  background: $tetra-red;
+}
+
+.centered-x {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.pageContents {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: $white;
+  margin-bottom: 100px;
+  padding: 20px 10px;
+}

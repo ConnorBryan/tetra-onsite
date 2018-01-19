@@ -1,0 +1,7 @@
+.idea
+node_modules
+config/index.js
+
+dump.rdb
+
+*.DS_Store

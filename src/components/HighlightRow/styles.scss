@@ -1,0 +1,70 @@
+@import "~src/global-styles/colors.scss";
+
+.highlightRow {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  align-items: flex-end;
+}
+
+.highlightHeaderRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: -30px;
+}
+
+.highlightPlayerBadgeContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.highlightPlayerBadge {
+  background-color: $bright-grey;
+  border-radius: 18px;
+  height: 24px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.highlightEmoji {
+  font-size: 18px;
+  color: transparent;
+  text-shadow: 0 0 0 #408af6;
+}
+
+.highlightTag {
+  color: $dark-grey;
+  font-size: 16px;
+  padding: 0 0 2px 4px;
+  font-variant: small-caps;
+  font-weight: 600;
+}
+
+.highlightPlayer {
+  cursor: pointer;
+  z-index: 1;
+}
+
+.highlightPlayerText {
+  font-size: 14px;
+  color: $light-grey;
+}
+
+.highlightPlayerImage {
+  margin: 8px;
+  height: 18px;
+  width: 18px;
+}
+
+.utteranceList {
+  top: 0;
+  width: 100%;
+}

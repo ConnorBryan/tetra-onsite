@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="21px" viewBox="0 0 12 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="tetra-homepage-mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-346.000000, -5426.000000)">
+        <g id="testimonial" transform="translate(0.000000, 5065.000000)" fill="#A6AEBE">
+            <g id="navigation" transform="translate(55.000000, 356.000000)">
+                <g id="next" transform="translate(281.000000, 4.000000)">
+                    <g id="arrow" transform="translate(11.313708, 11.313708) rotate(-225.000000) translate(-11.313708, -11.313708) translate(3.313708, 3.313708)">
+                        <rect id="Rectangle-20" x="0.707106781" y="0.707106781" width="1" height="14.2928932"></rect>
+                        <rect id="Rectangle-21" x="0.707106781" y="0.707106781" width="14.2928932" height="1"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

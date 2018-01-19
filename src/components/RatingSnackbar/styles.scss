@@ -1,0 +1,38 @@
+@import "src/global-styles/colors.scss";
+
+$snackbar-height: 65px;
+
+.root {
+  position: absolute;
+  background-color: $dark-grey;
+  color: $white;
+  right: 50px;
+  height: $snackbar-height;
+  width: 250px;
+  top: -$snackbar-height;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.titleRow {
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.starRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.star {
+  display: flex;
+  width: 30px;
+  padding-left: 3px;
+}

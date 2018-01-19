@@ -1,0 +1,58 @@
+#!/bin/bash
+
+set -e
+
+# Login to heroku
+cat >~/.netrc <<EOF
+machine api.heroku.com
+  login $HEROKU_EMAIL
+  password $HEROKU_TOKEN
+machine git.heroku.com
+  login $HEROKU_EMAIL
+  password $HEROKU_TOKEN
+EOF
+chmod 600 ~/.netrc
+
+# Copy config file to config/index.js
+if [ "$CIRCLE_BRANCH" == "production" ];
+then
+  echo "DEPLOYING PRODUCTION";
+  CONFIG="config/environment.prod.js";
+  ROOT_DIR="prodserver";
+  git remote add heroku https://git.heroku.com/tetra-web-react-production.git
+elif [ "$CIRCLE_BRANCH" == "master" ];
+then
+  echo "DEPLOYING STAGING";
+  CONFIG="config/environment.stag.js";
+  ROOT_DIR="devserver";
+  git remote add heroku https://git.heroku.com/tetra-web-react-staging.git
+else
+  exit 0;
+fi;
+cp "$CONFIG" config/index.js;
+
+# Delete an old build that may exist
+if test -e build;
+then
+  rm -rf build;
+fi;
+
+# Build react app
+npm link webpack
+npm run build
+
+# Copy config files into build
+cp Procfile build/Procfile
+cp package.json build/package.json
+
+# Copy devserver/prodserver files into build dir
+cp "$ROOT_DIR"/* build/
+
+# Configure git
+git config user.name "niklio"
+git config user.email "nik@asktetra.com"
+
+# Push build subtree to correct heroku remote
+git add -A
+git commit -m 'Adding build folder'
+git push heroku `git subtree split --prefix build "$CIRCLE_BRANCH"`:master --force

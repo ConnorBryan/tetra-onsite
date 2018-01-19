@@ -1,0 +1,24 @@
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    figure {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 2.5rem 0 2.5rem;
+    }
+    input {
+        border: 1px solid black;
+        border-radius: 4px;
+        width: 40px;
+        height: 70px;
+        text-align: center;
+    }
+}

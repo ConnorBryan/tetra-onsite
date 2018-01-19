@@ -1,0 +1,79 @@
+@import "~src/global-styles/FormStyles.scss";
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.entryLabel {
+  color: $grey;
+}
+
+.entrySelector {
+  margin-bottom: 10px;
+  padding: 15px 10px;
+  border: 1px solid $light-grey;
+  border-radius: 5px;
+}
+
+.entrySelector.active {
+  background: #f8f8f8;
+}
+
+.newCard {
+  display: flex;
+  flex-direction: column;
+
+  .contents {
+    padding: 0;
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    transition: height 0.2s linear;
+  }
+
+  &.expanded .contents {
+    height: 100%;
+  }
+}
+
+.billingFormFieldWrapper {
+  position: relative;
+}
+
+.billingFormIcon {
+  position: absolute;
+  top: 13px;
+  right: 15px;
+}
+
+.billingFormField {
+  border: 1px solid $light-grey;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.row > div {
+  flex-grow: 1;
+}
+
+input[type=radio] {
+  margin-right: 7px;
+}
+
+.formError {
+  @include form-error;
+  text-align: center;
+  margin: 0;
+}
+
+.purchaseButton {
+  margin-top: 10px;
+}

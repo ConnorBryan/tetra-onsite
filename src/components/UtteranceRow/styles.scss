@@ -1,0 +1,54 @@
+@import "~src/global-styles/colors.scss";
+
+.utteranceWrapper {
+  position: relative;
+  display: block;
+  padding-bottom: 15px;
+}
+
+.speakerRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.starContainer {
+  margin-right: 20px;
+}
+
+.speakerLabel {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.star {
+  height: 22px;
+  width: 22px;
+  cursor: pointer;
+}
+
+.utteranceWrapper:hover .speaker {
+  border-color: $tetra-red;
+}
+
+.words {
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 1.4em;
+  user-select: initial;
+}
+
+.highlightGroup {
+  position: relative;
+}
+
+.has-highlight.active {
+  background: rgba(255, 255, 0, 0.7);
+}
+
+.has-highlight {
+  background: rgba(255, 255, 0, 0.5);
+  cursor: pointer;
+}

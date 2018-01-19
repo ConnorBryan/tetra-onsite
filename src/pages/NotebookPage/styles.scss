@@ -1,0 +1,53 @@
+.notebookPage {
+  background-color: #eee;
+}
+
+.meetingRow {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clickableMeetingRow > .meetingRowContents {
+  cursor: pointer;
+  background-color: #fff !important;
+}
+
+.meetingRowContents {
+  height: 100%;
+  border-bottom: 1px solid #777;
+  background-color: #f6f6f6;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 900px;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.meetingTitle {
+  color: #414141;
+  font-size: 26px;
+}
+
+.meetingStartTime {
+  font-size: 16px;
+  color: #777;
+}
+
+.meetingStatusCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.meetingStatus {
+  font-size: 18px;
+  font-weight: bold;
+  color: #777;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}

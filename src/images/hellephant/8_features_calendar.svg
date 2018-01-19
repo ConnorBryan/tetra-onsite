@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g fill="none" fill-rule="evenodd" transform="translate(-972 -3355)">
+    <g transform="translate(975 3358)">
+      <rect width="36" height="34" x=".5" y="2.5" stroke="#F25D4B"/>
+      <g fill="#F25D4B" transform="translate(4)">
+        <rect width="1" height="5"/>
+        <rect width="1" height="5" x="4"/>
+        <rect width="1" height="5" x="8"/>
+        <rect width="1" height="5" x="12"/>
+        <rect width="1" height="5" x="16"/>
+        <rect width="1" height="5" x="20"/>
+        <rect width="1" height="5" x="24"/>
+        <rect width="1" height="5" x="28"/>
+      </g>
+      <rect width="37" height="1" y="7" fill="#F25D4B"/>
+      <text fill="#F25D4B" font-family="SFUIDisplay-Light, SF UI Display" font-size="16" font-weight="300">
+        <tspan x="10.408" y="27.5">31</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

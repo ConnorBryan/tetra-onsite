@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="250px" viewBox="0 0 8 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>divider</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="integrate-email" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-690.000000, -4197.000000)">
+        <g id="testimonial" transform="translate(0.000000, 4114.000000)">
+            <g id="divider" transform="translate(684.000000, 83.000000)">
+                <rect id="Rectangle-17" fill="#C8D1E0" x="6" y="0" width="1" height="250"></rect>
+                <rect id="Rectangle-22" fill="#EFF2F6" x="6" y="120" width="1" height="11"></rect>
+                <g id="Group-13" transform="translate(6.703988, 125.500000) rotate(-135.000000) translate(-6.703988, -125.500000) translate(2.203988, 121.000000)" fill="#C8D1E0">
+                    <rect id="Rectangle-20" x="0" y="0" width="1" height="9"></rect>
+                    <rect id="Rectangle-21" x="0" y="8" width="9" height="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
